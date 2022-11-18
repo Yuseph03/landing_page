@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.gray-part {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header img  {
+    margin-top: 1em;
+}
+.ul {
+    display: flex;
+}
+
+.ul a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 0 6em 2em 6em;
+}
+
+.hero-left {
+    color: white;
+}
+
+.hero-left button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.main h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 1em;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.boxes div {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.qoute p {
+    padding: 1em 5em 1em 5em;
+    font-size: 2em;
+    font-family: 'Roboto', arial;
+    background-color: #e5e7eb;
+}
+
+.qoute span{
+    font-weight: bold;
+   float: right;
+}
+
+.volunteer {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em 3em 5em;
+    margin-bottom: 2em;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.blue-area p {
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.blue-area button {
+    border-radius: 8px;
+}
+
+
